@@ -197,9 +197,12 @@ nav a:hover::after {
   letter-spacing: -.045em;
 }
 
-.hero h1 i {
+.hero h1 {
+  margin: 18px 0 28px;
+  font-size: clamp(68px, 9vw, 125px);
+  line-height: .9;
+  letter-spacing: -.045em;
   color: var(--accent);
-  font-weight: 500;
 }
 
 .lead {
